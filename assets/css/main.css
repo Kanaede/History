@@ -18,6 +18,24 @@
     }
 }
 
+@media (max-width:768) {
+    .col-mx-auto {
+        flex: 0 0 auto;
+        width: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .bd-banner-main {
+        content: url('../src/img/shadow-deop-device.png');
+    }    
+}
+@media (min-width:601px) {
+    .bd-banner-main {
+        content: url('../src/img/shadow-deop.png');
+    }    
+}
+
 .bd-gutter {
     --bs-gutter-x: 3rem;
 }

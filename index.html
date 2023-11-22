@@ -6,6 +6,7 @@
     <title>Portfolio Book</title>
 
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/audio-bundle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </head>
@@ -31,7 +32,7 @@
         <main>
           <div class="bd-masthead mb-2" id="content">
             <div class="position-relative">
-              <img src="assets/src/img/shadow-deop.png" class="bright-50 img-fluid" alt="..." >
+              <img src="/assets/src/img/shadow-deop.png" class="bright-50 img-fluid bd-banner-main" alt="..." >
                 <div class="container-xxl">
                   <div class="col-md-8 mx-auto text-center">
                     <div class="position-absolute top-50 start-50 translate-middle">
@@ -45,42 +46,65 @@
             <div class="container-fluid bd-gutter mt-5">
               <div class="col-md-8 mx-auto mb-md-5">
                 <h1 class="mb-3 font-electric text-center">Banyak pekerjaan yang harus dilakukan</h1>
-                <h3>Ini audio yang aku edit!</h3>
-                <h5>Audio asli:</h5>
-                <audio controls>
-                  <source src="assets/src/audio/hello.mp3"  type="audio/mp3">
-                </audio> 
-                <div style="width: 50px; height: 50px;"></div>
-                <div class="audio-player">
-                  <div class="timeline">
-                    <div class="progress"></div>
-                  </div>
-                  <div class="controls">
-                    <div class="play-container">
-                      <div class="toggle-play play">
-                    </div>
-                    </div>
-                    <div class="time">
-                      <div class="current">0:00</div>
-                      <div class="divider">/</div>
-                      <div class="length"></div>
-                    </div>
-                    <div class="name">Music Song</div>
-                <!--     credit for icon to https://saeedalipoor.github.io/icono/ -->
-                    <div class="volume-container">
-                      <div class="volume-button">
-                        <div class="volume icono-volumeMedium"></div>
-                      </div>
-                      
-                      <div class="volume-slider">
-                        <div class="volume-percentage"></div>
-                      </div>
-                    </div>
+                <h3>Menyuting Audio</h3>
+                <h5>Audio yang asli:</h5>
+                <div class="container">
+                  <div class="audio-player text-center">
+                    <p class="mb-3 fw-lighter">Halo - Hannah Gracelynn, lost, Pop Mage</p>
+                    <audio controls id="audio">
+                      <source src="assets/src/audio/halo_by_hannah.mp3" type="audio/mp3">
+                    </audio>
                   </div>
                 </div>
-                <audio controls src="assets/src/audio/hello.mp3"></audio>
-                <h5>Audio diedit:</h5>
-                <audio controls src="assets/src/audio/hello_slow_reverb.mp3"></audio>
+                <h5>Audio yang diedit:</h5>
+                <div class="container">
+                  <div class="audio-player text-center">
+                    <p class="mb-3 fw-lighter">Halo - Hannah Gracelynn, lost, Pop Mage [Edited]</p>
+                    <audio controls>
+                      <source src="assets/src/audio/hello_slow_reverb.mp3" type="audio/mp3">
+                    </audio>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="text-md-center">
+                    <h3 class="mb-2 font-electric mt-5">Menyuting Audio dengan Audacity</h3>
+                    <h5 class="fw-lighter">
+                      Menyuting/Mengedit audio atau lagu dengan audacity, mengunduh lagu atau suara dari internet lalu mencari tahu cara menyutingnya di internet dan mempraktekannya. <br>
+                      <font class="fw-normal font-electric">Kesutlitan: </font> Tidak ada <br>
+                      <font class="fw-normal font-electric">Pencapaian: </font> Bisa menyuting audio dengan audacity dan mengerti dasar menyuting audio <br>
+                    </h5>
+                  </div>
+                </div>
+                <img src="assets/src/img/audacity-halo.png" class="img-thumbnail mt-3" alt="...">
+              </div>
+              <div class="text-md-center">
+                <div class="mb-3 align-content-center">
+                  <h3 class="mb-2 font-electric">Menyuting video</h3>
+                  <h5 class="mb-3 fw-light">
+                    Menyuting/Mengedit film anime menjadi klip pendek dengan Filmora, mencari aplikasi dan memasangnya kemudian mempelajarinya secara autodidak atau melihat video. <br>
+                    <font class="fw-lighter">
+                      <font class="fw-normal font-electric">Kesutlitan: </font> Memahami logika jalur, mengatur efek dan transisi yang bagus <br>
+                      <font class="fw-normal font-electric">Pencapaian: </font> Membuat video secara mandiri, memahami proses penyutingan video
+                    </font>
+                  </h5>
+                  <div class="container">
+                    <div class="col-md-11 mx-auto mb-md-5">
+                      <img src="assets/src/img/filmora-editing.png" class="img-thumbnail" alt="...">
+                    </div>
+                  </div>                  
+                  <h5 class="mb-3 fw-light">
+                    Menyuting/Mengedit video dengan Adobe After Effect, karena komputer tidak terlalu bagus jadi saya menggunakan AE(Adobe After Effect) 2018, mengambil video dari youtube dan membuat audio spectrum. <br>
+                    <font class="fw-lighter">
+                      <font class="fw-normal font-electric">Kesutlitan: </font>Beberapa kali crash karena komputer tidak kuat <br>
+                      <font class="fw-normal font-electric">Pencapaian: </font> Membuat audio spectrum di AE, memahami proses penyutingan video di AE dan memahami cara export video dengan Adobe Media Encoder
+                    </font>
+                  </h5>
+                  <div class="container">
+                    <div class="col-md-11 mx-auto mb-md-5">
+                      <img src="assets/src/img/ae-spectrum.png" class="img-thumbnail" alt="...">
+                    </div>
+                  </div>                  
+                </div>
               </div>
             </div>
           </div>
