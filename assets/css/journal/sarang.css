@@ -1,0 +1,10 @@
+@media (max-width:768px) {
+  .jrs-banner {
+    content: url('../../src/img/ada-sarang-device.jpg');
+  }
+}
+@media (min-width:769px) {
+  .jrs-banner {
+    content: url('../../src/img/ada-sarang.png');
+  }
+}

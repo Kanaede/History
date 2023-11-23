@@ -1,0 +1,57 @@
+.bd-link-touched {
+  color: var(--bs-info);
+}
+.bd-link-touched:hover {
+  color: var(--bs-primary);
+}
+
+.shadow-button-blue {
+  box-shadow: 5px 5px 2.5px var(--bs-primary-bg-subtle);
+}
+.shadow-button-blue:hover {
+  box-shadow: 5px 5px 2.5px var(--bs-primary);
+}
+.shadow-button-cyan {
+  box-shadow: 5px 5px 2.5px var(--bs-info-bg-subtle);
+}
+.shadow-button-cyan:hover {
+  box-shadow: 5px 5px 2.5px var(--bs-info);
+}
+.shadow-button-green {
+  box-shadow: 5px 5px 2.5px var(--bs-success-bg-subtle);
+}
+.shadow-button-green:hover {
+  box-shadow: 5px 5px 2.5px var(--bs-success);
+}
+.shadow-button-red {
+  box-shadow: 5px 5px 2.5px var(--bs-danger-bg-subtle);
+}
+.shadow-button-red:hover {
+  box-shadow: 5px 5px 2.5px var(--bs-danger);
+}
+.shadow-button-yellow {
+  box-shadow: 5px 5px 2.5px var(--bs-warning-bg-subtle);
+}
+.shadow-button-yellow:hover {
+  box-shadow: 5px 5px 2.5px var(--bs-warning);
+}
+
+.bd-jr-link {
+  cursor: pointer;
+}
+
+.jr-footer {
+  width: 100%;
+  height: calc(3rem);
+  padding: 25px 35px;
+  background-color: rgb(26, 29, 31);
+}
+
+.jr-text-footer {
+  font-size: .8rem;
+}
+
+.jr-content {
+  width: 100%;
+  height: calc(15rem + 12vw);
+}

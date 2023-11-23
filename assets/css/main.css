@@ -6,6 +6,14 @@
     font-family: 'Electric', var(--bs-body-font-family);
 }
 
+@font-face {
+  font-family: Beyond;
+  src: url('../src/font/font-8236743.ttf');
+}
+.font-beyond {
+  font-family: 'Beyond', var(--bs-body-font-family);
+}
+
 @media (min-width:768px) and (min-width:1200px) {
     .bd-masthead .lead {
         font-size: 1.5rem;
@@ -18,7 +26,7 @@
     }
 }
 
-@media (max-width:768) {
+@media (max-width:768px) {
     .col-mx-auto {
         flex: 0 0 auto;
         width: auto;
