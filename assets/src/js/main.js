@@ -1,4 +1,4 @@
-import mediumZoom from 'medium-zoom'
+import mediumZoom from 'https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js'
 
 const zoomDefault = mediumZoom('#zoom-default')
 
