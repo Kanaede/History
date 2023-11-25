@@ -4,3 +4,7 @@ const zoomDefault = mediumZoom('#zoom-default', {
   background: "#212529",
   margin: 50,
 })
+
+const zoomNoM = mediumZoom('#zoom-nom', {
+  background: "#212529"
+})
